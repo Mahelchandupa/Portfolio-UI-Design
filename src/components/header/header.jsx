@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/me.png'
@@ -8,7 +8,31 @@ import "@google/model-viewer";
 import Robo from '../../assets/RobotExpressive.glb'
 
 
-const header = () => {
+const Header = () => {
+  // const [roboRun, setroboRun] = useState('Wave')
+
+  // const robostates = ['Wave','Runing', 'Stop']
+
+  // const robowavestate = ()=>{
+  //   let i = 0;
+  //     for (i = 0; i < 3 ; i++) {
+  //       setTimeout(() => {
+  //        setroboRun(robostates[i])
+  //       }, 5000);
+
+  //       if(i=3){
+  //         i=0;
+  //       }
+  //     }
+      
+
+  // }
+
+  // useEffect(() => {
+  //   robowavestate()
+  // }, [])
+  
+
   return (
     <header>
       <div className="container header_container">
@@ -19,8 +43,8 @@ const header = () => {
         <HeaderSocials/>
 
         <div className="me">
-          {/* <img src={ME} alt="me" /> */}
-          <model-viewer style={{ maxWidth: 400, width: '85%', height: 400,  margin: 'auto' }} src={Robo} camera-controls animation-name="Wave" autoplay>
+          {/* <img src={ME} alt="me" camera-controls/> */}
+          <model-viewer style={{width: '100%',  margin: 'auto' }} className="robo" src={Robo}  animation-name="Wave"  autoplay>
          </model-viewer>
 
         </div>
@@ -31,4 +55,4 @@ const header = () => {
   )
 }
 
-export default header
+export default Header
