@@ -1,63 +1,42 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/game-distribution.webp'
+import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
-
 
 const data = [
    {
     id: 1,
     image: IMG1,
-    title: 'Game Distribution Platform',
-    github: 'https://github.com/Mahelchandupa/Game-Distribution-Platform.git',
-    demo: 'https://github.com'
+    title: 'Fashion Land Online Store',
+    github: 'https://github.com/PasinduAR/Fashion-Land-Online-Store',
+    demo: 'https://github.com/PasinduAR/Fashion-Land-Online-Store'
    },
 
    {
     id: 2,
     image: IMG2,
-    title: 'Hospital Queue Managment',
-    github: 'https://github.com/Mahelchandupa/University-Managment-System.git',
-    demo: 'https://github.com'
+    title: 'Games Management System',
+    github: 'https://github.com/PasinduAR/Games-Management-System',
+    demo: 'https://github.com/PasinduAR/Games-Management-System'
    },
 
    {
     id: 3,
     image: IMG3,
-    title: 'University Managment',
-    github: 'https://github.com/Mahelchandupa/University-Managment-System.git',
-    demo: 'https://github.com'
+    title: 'Employee Details Management System',
+    github: 'https://github.com/PasinduAR/Employee-Details-Management-Crud',
+    demo: 'https://github.com/PasinduAR/Employee-Details-Management-Crud'
    },
 
    {
     id: 4,
     image: IMG4,
-    title: 'CRUD Application',
-    github: 'https://github.com/Mahelchandupa/EAD2-CW-2.git',
-    demo: 'https://github.com'
+    title: 'Barber Shop Web Site',
+    github: 'https://github.com/PasinduAR/Barber-Shop-Web-Site',
+    demo: 'https://github.com/PasinduAR/Barber-Shop-Web-Site'
    }
-   //,
-
-  //  {
-  //   id: 5,
-  //   image: IMG5,
-  //   title: 'CRUD Application',
-  //   github: 'https://github.com/Mahelchandupa/EAD2-CW-2.git',
-  //   demo: 'https://github.com'
-  //  },
-
-  //  {
-  //   id: 6,
-  //   image: IMG6,
-  //   title: 'Game Distribution Platform',
-  //   github: 'https://github.com',
-  //   demo: 'https://github.com'
-  //  }
-
 ]
 
 

@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './header.css'
 import CTA from './CTA'
-import ME from '../../assets/me.png'
 import HeaderSocials from './HeaderSocials'
-import Model from 'react-3dmodelx';
 import "@google/model-viewer";  
 import Robo from '../../assets/RobotExpressive.glb'
 
@@ -37,7 +35,7 @@ const Header = () => {
     <header>
       <div className="container header_container">
         <h5>Hello I'm</h5>
-        <h1>Mahel Chandupa</h1>
+        <h1>Pasindu Akalanka</h1>
         <h5 className='text-light'>Fullstack Developer</h5>
         <CTA />
         <HeaderSocials/>
